@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans");
+@import url("https://fonts.googleapis.com/css?family=Electrolize");
+body {
+	background-color: #f7f5fb;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #084887;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	font-family:"Merriweather Sans";
+	color: #f9ab55; 
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: bold;
+	letter-spacing: 1pt;
+	color: #f9ab55;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+
+/* Larger viewports */
+@media only screen and (min-width: 32.5em) {
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+}
+
+h2.caja{
+	border-style: dashed;
+	border-color: #909cc2;
+	padding:10px;
+	font-family:"Merriweather Sans";
+	color: #909cc2;
+}
+
+h1.tituloPagina{
+	text-align: center;
+	font-family:"Merriweather Sans";
+	color: #f9ab55;
+}
+
+footer{
+	background-color: #084887;
+	padding:10px;
+	text-align: center;
+	font-family:"Merriweather Sans";
+	
+}
+nav{
+	font-family:"Merriweather Sans";
+}
