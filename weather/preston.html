@@ -6,7 +6,7 @@
 <meta name="author" content="John Doe">
 
 <!-- This start file was build by Paul Cheney  -->
-<title>HTML5 Start Site by Paul Cheney</title>
+<title>HTML5 InfoWeather</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -55,7 +55,7 @@
     
 <!-- CONTENT HERE -->
     <main>
-        <h1 class="tituloPagina">Preston Idaho</h1>
+        <h2 class="tituloPagina">Preston Idaho</h2>
         <h2 class="caja">Hero w/ weather summary.</h2>
         <h2 class="caja">5 Days Forecast.</h2>
         <h2 class="caja">Article</h2>
@@ -66,8 +66,17 @@
 <!-- FOOTER HERE -->   
     <footer>
         <p>Info Weather &copy; 2021 &bull; Rosa Garces &bull; 099391319</p>
+        <p>
+            <script>
+                var f = new Date();
+                document.write(f.getDate(). + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+            </script>
+        </p>
     </footer>
     
 <script src="js/scripts.js"></script>
+
+
+</script>
 </body>
 </html>
