@@ -27,4 +27,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', end
         border-right: 1px solid rgba(0,0,0,0.3);
         padding: .6rem 1rem;
     }
+
+    .fondoText{
+        height: 450px;
+      }
 } /*end large */

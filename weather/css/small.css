@@ -13,6 +13,10 @@ nav button {
     color: #fff;
 }
 
+.fondoText{
+  height: 700px;
+}
+
 nav {
     background-color: #f58a07;
     font-family: Verdana, sans-serif;

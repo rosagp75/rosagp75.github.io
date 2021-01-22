@@ -56,22 +56,102 @@
 <!-- CONTENT HERE -->
     <main>
         <h2 class="tituloPagina">Preston Idaho</h2>
-        <h2 class="caja">Hero w/ weather summary.</h2>
-        <h2 class="caja">5 Days Forecast.</h2>
-        <h2 class="caja">Article</h2>
-        <h2 class="caja">Contact Information.</h2>
+        <div class="herodiv">
+            <img class="banner" src="images/preston.jpg">
+            <section class="weatherSummary">
+             <h2>Weather Summary</h2>
+             <hr>
+             <div class="grid">
+                <div class="grid-col1">
+                    <p>Currenty:</p>
+                    <p>High:</p>
+                    <p>Wind Chill:</p>
+                    <p>Humidity:</p>
+                    <p>Wind Speed:</p>
+                </div>
+                <div class="grid-col2">
+                    <p>Summy</p>
+                    <p>76°F</p>
+                    <p>°F</p>
+                    <p>69%</p>
+                    <p>5mph</p>
+                </div>
+                
+            </div>
+            </section>
+        </div>
+        <h2 class="tituloPagina">5 day Forecast</h2>
+        
+            <div class="grid">
+                <div class="grid-col">
+                    <span class="col-head">Wed</span>
+                    <img class="marco" src="images/SUN.png" alt="kitten!">
+                    <span class="data">89°F</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Thu</span>
+                    <img  class="marco" src="images/SUN.png" alt="kitten!">
+                    <span class="data">87°F</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Fri</span>
+                    <img class="marco" src="images/SUN.png" alt="kitten!">
+                    <span class="data">78°F</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Sat</span>
+                    <img class="marco" src="images/SUN.png" alt="kitten!">
+                    <span class="data">75°F</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Sun</span>
+                    <img class="marco" src="images/SUN.png" alt="kitten!">
+                    <span class="data">72°F</span>
+                </div>
 
+
+                
+            </div>
+        
+            <div class="fondoText">
+<!--<img class="imagen2" src="images/tierra.jpg">-->
+                <section class="articulo">
+                    <h2>What’s on the Horizon for the Climate Desk</h2>
+                    <h3>By Mark Shimabukuro</h3>
+                    <h4>Published Dec. 30, 2020
+                        Updated Jan. 4, 2021</h4>
+                    <p>Times Insider explains who we are and what we do, and delivers behind-the-scenes insights into how our journalism comes together.
+
+                        Just how tumultuous was 2020 on the climate front? It was a year in which wetlands burned. And beyond the fires that razed South America, Australia and the American West, communities around the world were left reeling from extreme heat, record storms and rising seas. The Times’s Climate desk, with more than a dozen investigative, science, policy and visual journalists, chronicled it all. With 2021 approaching, the Climate editor Hannah Fairfield offered more perspective on what happened, and what lies ahead.
+                        
+                        In 2020, we seem to have experienced the beginning of what scientists have been warning about — extreme weather on many fronts and more severe climate-related disasters. You and your team have been covering this all along. But did this year still surprise you?
+                        
+                        The year started with fires in Australia, and all year long it seemed as if areas of the globe were aflame, culminating in California’s worst wildfire season and infernos in places that rarely burned. At the same time, there were more major tropical storms in the Atlantic than ever recorded before.<a href="https://www.nytimes.com/2020/12/30/insider/climate-2021.html#:~:text=After%20a%20year%20when%20climate,is%20pivotal%20for%20the%20world.&text=Times%20Insider%20explains%20who%20we,how%20our%20journalism%20comes%20together.">See the complete article here</a>
+                        
+                        </p>
+                </section>
+            </div>
     </main>
     
 <!-- FOOTER HERE -->   
     <footer>
-        <p>Info Weather &copy; 2021 &bull; Rosa Garces &bull; 099391319</p>
-        <p>
-            <script>
-                var f = new Date();
-                document.write(f.getDate(). + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
-            </script>
-        </p>
+        <div class="gridfooter">
+            <div class="grid-colf">
+                <img src="images/mujer.jpg">
+            </div>
+            <div class="grid-colf">
+                <p>Info Weather &copy; 2021 &bull; Rosa Garces &bull; 099391319</p>
+                <p>
+                    <script>
+                        var f = new Date();
+                        document.write(f.getDate(). + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                    </script>
+                </p>
+            </div>
+            <div class="grid-colf">
+                <img src="images/mapa.png">
+            </div>
+        
     </footer>
     
 <script src="js/scripts.js"></script>
