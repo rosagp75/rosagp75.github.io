@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans");
+@import url("https://fonts.googleapis.com/css?family=Electrolize");
+
+
+
+  
+  /*imagen y superposicion*/
+  main {max-width:800px;margin:0 auto;}
+  h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
+  
+  .herodiv {margin: 10px auto;position: relative;}
+  h1, h2, p {margin: 0;}
+  
+  .weatherSummary {
+      position: absolute;
+      top: 25px;
+      left: 20px;
+      background: radial-gradient(#eee, #4567aa);
+      border: 1px solid #000;
+      padding: 1.5rem;
+      box-shadow: 0 0 30px #111;
+      opacity: .8;
+  }
+  
+  /* fin imagen y superposicion*/
+  
+  /* Grid */
+  .grid { 
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+     
+}
+.grid-col1 {
+  font-family:"Merriweather Sans";
+  }
+.grid-col2 {
+  font-family:"Electrolize";
+  }
+/* Fin Grid */
+ 
+  
+   
+   
