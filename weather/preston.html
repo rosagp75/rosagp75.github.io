@@ -22,7 +22,7 @@
 <link href="css/medium.css" rel="stylesheet">
 <!-- enhance-desktop -->
 <link href="css/large.css" rel="stylesheet">
-
+<link href="css/formato.css" rel="stylesheet">
 
      
 </head>
@@ -54,10 +54,16 @@
     
     
 <!-- CONTENT HERE -->
-    <main>
+    <main class="clearfix">
         <h2 class="tituloPagina">Preston Idaho</h2>
         <div class="herodiv">
-            <img class="banner" src="images/preston.jpg">
+            <figure class="imagenprincipal">
+                    <img src="images/preston.jpg" alt="Preston City" sizes="50vw"
+                    srcset="images/preston500.jpg 200w,
+                    images/preston500.jpg 500w,
+                    images/preston.jpg 800w">
+
+            </figure>
             <section class="weatherSummary">
              <h2>Weather Summary</h2>
              <hr>
@@ -112,14 +118,19 @@
 
                 
             </div>
-        
-            <div class="fondoText">
-<!--<img class="imagen2" src="images/tierra.jpg">-->
+            <figure class=imagen2>
+                <img src="images/otoño2.jpg" alt="Fall photo" sizes="50vw"
+                srcset="images/otoño1.jpg 200w,
+                images/otoño2.jpg 500w,
+                images/otoño2.jpg 800w">
+            </figure>
+                
                 <section class="articulo">
                     <h2>What’s on the Horizon for the Climate Desk</h2>
                     <h3>By Mark Shimabukuro</h3>
                     <h4>Published Dec. 30, 2020
                         Updated Jan. 4, 2021</h4>
+
                     <p>Times Insider explains who we are and what we do, and delivers behind-the-scenes insights into how our journalism comes together.
 
                         Just how tumultuous was 2020 on the climate front? It was a year in which wetlands burned. And beyond the fires that razed South America, Australia and the American West, communities around the world were left reeling from extreme heat, record storms and rising seas. The Times’s Climate desk, with more than a dozen investigative, science, policy and visual journalists, chronicled it all. With 2021 approaching, the Climate editor Hannah Fairfield offered more perspective on what happened, and what lies ahead.
@@ -130,33 +141,29 @@
                         
                         </p>
                 </section>
-            </div>
+           
     </main>
     
 <!-- FOOTER HERE -->   
     <footer>
         <div class="gridfooter">
             <div class="grid-colf">
-                <img src="images/mujer.jpg">
+                <img src="images/mujer.jpg" alt="mujer">
             </div>
             <div class="grid-colf">
                 <p>Info Weather &copy; 2021 &bull; Rosa Garces &bull; 099391319</p>
                 <p>
                     <script>
                         var f = new Date();
-                        document.write(f.getDate(). + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                        document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
                     </script>
                 </p>
             </div>
             <div class="grid-colf">
-                <img src="images/mapa.png">
+                <img src="images/mapa.png" alt="mapa">
             </div>
-        
+        </div>
     </footer>
-    
-<script src="js/scripts.js"></script>
 
-
-</script>
 </body>
 </html>
