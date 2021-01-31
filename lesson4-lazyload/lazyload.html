@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <meta name="description" content="">
+        <meta name="author" content="Rosa Garces">
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/formato.css">
+        <title>Progressive Loading of Images</title>
+    </head>   
+    <body>
+        <header>            
+            <h1>Progressive Loading of Images</h1>                       
+        </header>
+
+
+
+        <main> 
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/image1.jpg" alt="dddd">
+            </picture>
+            
+            <picture>
+                <img src="images/placeholder.png" data-src="images/image2.jpg" alt="beautiful sunset over barley field">                
+            </picture>
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/image3.jpg" alt=" flowers in wheat field">
+            </picture>
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/image4.jpg" alt="beautiful red flower">
+            </picture>
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/image5.jpg" alt="beautiful poppies">
+            </picture>
+
+            <picture>
+                <img src="images/placeholder.png" data-src="images/image6.jpg" alt="beautiful tulips">
+            </picture> 
+            
+        </main>
+
+
+
+            <footer>
+                <p> &copy; <span id="currentyear"> </span>  | Rosa Garces | <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a><br><span id="currentday"></span></p>
+            </footer>
+
+            <script src="js/imagehandling.js"></script>
+        
+    </body>
+
+</html>
