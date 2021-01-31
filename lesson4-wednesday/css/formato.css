@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans");
+@import url("https://fonts.googleapis.com/css?family=Electrolize");
+
+
+/*inicio para configurar pag. preston*/
+body {
+    background-color: #f7f5fb;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #084887;
+    padding: 5px 0;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  header img {
+    width: 80px;
+    height: auto;
+   
+  }
+  
+  
+  
+  .headings {
+    display: flex;
+    flex-direction: column;
+    font-family:"Merriweather Sans";
+    color: #f9ab55; 
+  }
+  
+  .headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+  }
+  
+  .m {
+    font-style: bold;
+    letter-spacing: 1pt;
+    color: #f9ab55;
+    margin-left: 20px;
+    font-size: .9rem;
+  }
+  
+  
+  /* Larger viewports */
+  @media only screen and (min-width: 32.5em) {
+    header img {
+      width: 100%;
+    }
+  
+    .headings h1 {
+      font-size: 3rem;
+    }
+  
+    .m {
+      letter-spacing: 1.5pt;
+      font-size: larger;
+      margin-left: 17px;
+    }
+  }
+  
+  h2.caja{
+    border-style: dashed;
+    border-color: #909cc2;
+    padding:10px;
+    font-family:"Merriweather Sans";
+    color: #909cc2;
+  }
+  
+  h2.tituloPagina{
+    text-align: center;
+    font-family:"Merriweather Sans";
+    color: #f9ab55;
+    padding:25px
+  }
+  
+  footer{
+    background-color: #084887;
+    padding:10px;
+    text-align: center;
+    font-family:"Merriweather Sans";
+    color:  #f9ab55;
+  }
+  nav{
+    font-family:"Merriweather Sans";
+  }
+  /*fin pagina Preston*/
+  
+  /*imagen y superposicion*/
+  main {max-width:800px;margin:0 auto;}
+  h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
+  
+  .herodiv {margin: 10px auto;position: relative;}
+  h1, h2, p {margin: 0;}
+  
+  .weatherSummary {
+      position: absolute;
+      top: 25px;
+      left: 20px;
+      background: radial-gradient(#eee, #4567aa);
+      border: 1px solid #000;
+      padding: 1.5rem;
+      box-shadow: 0 0 30px #111;
+      opacity: .8;
+  }
+  
+  /* fin imagen y superposicion*/
+  
+  /* Grid */
+  .grid { 
+      display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    border-right: 1px solid #333;
+  }
+  .grid-col1 {
+    font-family:"Merriweather Sans";
+    }
+  .grid-col2 {
+    font-family:"Electrolize";
+    }
+  /* Fin Grid */
+  
+  hr{
+    color:ghostwhite;
+  }
+  .col-head {
+      display: block;
+      padding: 5px;
+      border-bottom: 1px solid #333;
+    text-align: center;
+    font-weight: 700;
+      font-size: 1rem;
+      background-color:  #f9ab55;
+      color: white;
+  }
+  .data {
+      display: block;
+      padding: 0 5px 5px;
+      font-size: 0.8rem;
+    text-align: center;
+    font-family:"Electrolize";
+  }
+  .grid-col:hover {
+      opacity: 0.75;
+      background-color:#333;
+      color: white;
+  }
+  .grid-col {
+      border-bottom: 1px solid #333;
+      border-left: 1px solid #333;
+    text-align: center;
+  }
+  img.marco{
+    border-radius: 100px;
+    padding: 0.25rem;
+   }
+   .fondoText{
+     margin:10px auto;
+     position:relative;
+     background-color: #f9ab55;
+     border:1px solid #333;
+     width:100%;
+     height:400px;
+     padding: 20px;
+     box-shadow: 0 0 30px #111;
+   }
+   .articulo{
+      position:relative;
+      padding:20px; 
+      font-family:"Merriweather Sans";
+   }
+   .imagen2{
+     float:right;
+     display:block;
+     max-width: 50%;
+     height:auto;
+     position:relative;
+   }
+   .imagenprincipal{
+    width: 50%;
+   
+  }
+   
+   .gridfooter { 
+      display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    }
+  
+    footer img {
+      width: 100%;
+      height: auto;
+    }
+    .banner{
+      width: 100%;
+      height: auto;
+    }
