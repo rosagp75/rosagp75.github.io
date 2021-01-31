@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
+<meta name="description" content="">
+<meta name="author" content="Rosa Garces">
 
 <!-- This start file was build by Paul Cheney  -->
-<title>HTML5 InfoWeather</title>
+<title>InfoWeather</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -49,7 +49,7 @@
             <li><a href="#">Soda Spring</a></li>
             <li><a href="#">Fish Haven</a></li> 
             <li><a href="#">Storm Center</a></li>   
-            <li><a href="#">Galery</a></li>
+            <li><a href="gallery-7.html">Galery</a></li>
         </ul>
     </nav>
     
@@ -149,25 +149,19 @@
     </main>
     
 <!-- FOOTER HERE -->   
-    <footer>
-        <div class="gridfooter">
-            <div class="grid-colf">
-                <img src="images/mujer.jpg" alt="mujer">
-            </div>
-            <div class="grid-colf">
-                <p>Info Weather &copy; 2021 &bull; Rosa Garces &bull; 099391319</p>
-                <p>
-                    <script>
-                        var f = new Date();
-                        document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
-                    </script>
-                </p>
-            </div>
-            <div class="grid-colf">
-                <img src="images/mapa.png" alt="mapa">
-            </div>
+<footer>
+    <div class="gridfooter">
+        <div class="grid-colf">
+            <img src="images/mujer.jpg" alt="mujer">
         </div>
-    </footer>
-
+        <div class="grid-colf">
+                <p> &copy; <span id="currentyear"> </span>  | Rosa Garces | <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a><br><span id="currentday"></span></p>
+        </div>
+        <div class="grid-colf">
+            <img src="images/mapa.png" alt="mapa">
+        </div>
+    </div>
+</footer>
+<script src="js/imagehandling.js"></script>
 </body>
 </html>

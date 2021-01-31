@@ -48,7 +48,9 @@ nav ul.hide{display:none;}
   clear: both;
 }
 
-
+.container{
+    grid-template-columns: 1fr;
+    }
 
 
 
