@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>HTML5 InfoWeather</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<link href="css/formato.css" rel="stylesheet">
+<script type="text/javascript" src="js/scripts.js"></script>
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+<header>
+	<picture>
+		<img src="images/logo.png" alt="The InfoWeather Logo">
+	</picture>
+	<section class="headings">
+		<h1>InfoWeather</h1>
+		<div class="m">The best weather information!</div>
+	</section>
+</header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li> 
+            <li><a href="#">Storm Center</a></li>   
+            <li><a href="#">Galery</a></li>
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main class="clearfix">
+        <h2 class="tituloPagina">Wheather Gallery</h2>
+        <div class="container">
+            <figure>
+                <img class="norm" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg">
+                <figcaption>:hover pseduo-class box-shadow</figcaption>
+            </figure>
+            <figure><img class="rocorn" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg">
+                <figcaption>border-radius</figcaption>
+            </figure>
+            <figure><img class="opac" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg">
+                <figcaption>opacity</figcaption>
+            </figure>
+            <figure><img class="blur" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg">
+                <figcaption>filter: blur and grayscale</figcaption>
+            </figure>
+            <figure><img class="object" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg">
+                <figcaption>object-fit<br>☼ <a href="https://youtu.be/5CZyxnCdXuk" target="_blank">More on Object Fit from Layout Land</a></figcaption>
+            </figure>
+            <figure><img class="shape-outside" src="https://mobile-cdn.lds.org/a1/7a/a17a8b57df952457cc3af5ac347be7a178e2a0db/barranquilla_columbia_temple_exterior.jpeg">
+                <figcaption>shape-outside<br> Applied with a border-radius and a reduced width. The shape-outside property may not be supported in your browser. Consult <a href="https://caniuse.com/#search=shape-outside" target="_blank">CanIUse</a> to check the support status.
+                    </figcaption>
+            </figure>
+        </div>
+                
+           
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <div class="gridfooter">
+            <div class="grid-colf">
+                <img src="images/mujer.jpg" alt="mujer">
+            </div>
+            <div class="grid-colf">
+                <p>Info Weather &copy; 2021 &bull; Rosa Garces &bull; 099391319</p>
+                <p>
+                    <script>
+                        var f = new Date();
+                        document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                    </script>
+                </p>
+            </div>
+            <div class="grid-colf">
+                <img src="images/mapa.png" alt="mapa">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
