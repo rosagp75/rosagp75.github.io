@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="Rosa Garces">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>InfoWeather</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/formato.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<script type="text/javascript" src="js/scripts.js"></script>
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+<header>
+	<picture>
+		<img src="images/logo.png" alt="The InfoWeather Logo">
+	</picture>
+	<section class="headings">
+		<h1>InfoWeather</h1>
+		<div class="m">The best weather information!</div>
+	</section>
+</header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li> 
+            <li><a href="#">Storm Center</a></li>   
+            <li><a href="#">Galery</a></li>
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main class="clearfix">
+        <h2 class="tituloPagina">Wheather Gallery</h2>
+        <div class="container">
+            <picture class="gale">
+                <img class="norm" src="images/placeholder.png" data-src="images/Solminnesota.jpg" alt="Weather Minesota">
+                <figcaption>Heat in Minesota</figcaption>
+            </picture>
+            <picture class="gale">
+                <img class="norm" src="images/placeholder.png" data-src="images/montreal.jpg" alt="Weather Montreal">
+                <figcaption>Typical October weather week a head for Montreal</figcaption>
+            </picture>
+            <picture class="gale">
+                <img class="norm" src="images/placeholder.png" data-src="images/florida.jpg" alt="Weather Florida">
+                <figcaption>
+                    The weather on climate in Braderton, Florida
+                </figcaption>
+            </picture>
+            <picture class="gale">
+                <img class="norm" src="images/placeholder.png" data-src="images/nieve.jpg" alt="Snow">
+                <figcaption>Wheather forcing cancellations</figcaption>
+            </picture>
+            <picture class="gale">
+                <img class="norm" src="images/placeholder.png" data-src="images/columbus.jpg" alt="Weather Columbus">
+                <figcaption>Columbus Wheather Forecast</figcaption>
+            </picture>
+            <picture class="gale">
+                <img class="norm" src="images/placeholder.png" data-src="images/Chennai.jpg" alt="Weather Chenai">
+                <figcaption>Chenai weather forecast</figcaption>
+            </picture>
+            <picture class="gale">
+                <img class="norm" src="images/placeholder.png" data-src="images/miami.jpg" alt="Weather Miami">
+                <figcaption>Weather station Miami</figcaption>
+            </picture>
+            <picture class="gale">
+                <img class="norm" src="images/placeholder.png" data-src="images/farm.jpg" alt="Weather Farm">
+                <figcaption>Farm weather uncertain financial times.</figcaption>
+            </picture>
+            <picture class="gale" >
+                <img class="norm" src="images/placeholder.png" data-src="images/winter.jpg" alt="Weather Winter">
+                <figcaption>Winter weather winding down acros Arklatex</figcaption>
+            </picture>
+        </div>
+                
+           
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <div class="gridfooter">
+            <div class="grid-colf">
+                <img src="images/mujer.jpg" alt="mujer">
+            </div>
+            <div class="grid-colf">
+                    <p> &copy; <span id="currentyear"> </span>  | Rosa Garces | <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a><br><span id="currentday"></span></p>
+            </div>
+            <div class="grid-colf">
+                <img src="images/mapa.png" alt="mapa">
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/imagehandling.js"></script>
+</body>
+</html>
