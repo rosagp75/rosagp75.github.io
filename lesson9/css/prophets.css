@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans");
+@import url("https://fonts.googleapis.com/css?family=Electrolize");
+
+h1 {
+    text-align: center;
+    font-family:"Merriweather Sans";
+    font-style: italic;
+}
+header{
+    background-color: blueviolet;
+    height: 50px;
+    margin-bottom: 10px; 
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items:center;
+    text-align: center;
+    grid-row-gap:20px;
+
+}
+
+main div section  {
+    background-color:rgb(13, 122, 150);
+    padding-bottom:20px;
+    width:80%;
+}
+
+img {
+    width: 80%;
+}
+h2 {
+    font-family:"Merriweather Sans";
+}
+p {
+    font-family:"Merriweather Sans";
+}
+footer {
+    padding:20px;
+    text-align: center;
+    font-family:"Electrolize";
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media only screen and (min-width: 35rem) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items:center;
+        text-align: center;
+        grid-gap:20px;
+    }
+
+}
+
+
+@media only screen and (min-width: 64rem) {
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap:10px;
+        justify-items:center;
+        text-align: center;
+        grid-row-gap:20px;
+    }
+}
