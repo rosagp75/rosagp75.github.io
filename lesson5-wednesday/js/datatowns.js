@@ -10,6 +10,7 @@ fetch(requestURL)
         console.table(jsonObject); 
         const towns = jsonObject['towns']; 
         for (let i = 0; i < towns.length; i++ ){
+          if  (towns[i].name=="Preston" || towns[i].name=="Soda Springs" || towns[i].name=="Fish Haven"){
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
             let h3= document.createElement('h3');
@@ -31,6 +32,6 @@ fetch(requestURL)
             img.setAttribute('alt', towns[i].name);
             card.appendChild(img);
             document.querySelector('div.cards').appendChild(card);
-
+          }
         }
       });

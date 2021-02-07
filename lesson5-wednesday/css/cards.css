@@ -5,6 +5,7 @@ h2 {
     text-align: center;
     font-family:"Merriweather Sans";
     font-style: italic;
+    font-size: 1.5rem;
 }
 
 .cards {
@@ -20,14 +21,16 @@ h2 {
 main div section  {
     background-color: #084887;
     padding:20px;
-    width:100%;
+    width: 250px;
 }
 
 img {
-    width: 90%;
+    width: 100%;
+  
 }
-h2,h3 {
+h3 {
     font-family:"Merriweather Sans";
+    font-size: 0.8rem;
 }
 p {
     font-family:"Merriweather Sans";
@@ -35,23 +38,25 @@ p {
 }
 
 @media only screen and (min-width: 35em) {
-    .cards {
-        display: grid;
-          grid-template-columns: 1fr 1fr;
-      }
-      
-      .cards:nth-child(odd) img {
-          grid-column: 2;
-      }
-      
-      .cards:nth-child(odd) p{
+   
+
+
+.cards {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.cards:nth-child(odd) img {
+	grid-column: 2;
+}
+
+div.cards:nth-child(odd) h2, h3, p{
           grid-column: 1;
           grid-row: 1;
       }
       
      
     
-
 }
 
 @media only screen and (min-width: 64rem) {
