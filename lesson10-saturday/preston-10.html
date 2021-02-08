@@ -71,20 +71,18 @@
              <div class="grid">
                 <div class="grid-col1">
                     <p>Currenty:</p>
-                    <p>High:</p>
-                    <p>Wind Chill:</p>
+                    <p>Temp:</p>
                     <p>Humidity:</p>
                     <p>Wind Speed:</p>
-                    <p>Wind chill factor is:</p>
-                    <button type="button" onclick="CalcularFactor()">Calculate</button>
+                    <p>Wind chill:</p>
                 </div>
                 <div class="grid-col2">
-                    <p>Summy</p>
-                    <p>76°F</p>
-                    <p><input type="text" id="dato1" style="width : 100px; height: 20px"></p>
-                    <p>69%</p>
-                    <p><input type="text" id="dato2" style="width : 100px; height: 20px"></p>
-                    <p><div id="outputDiv"></div></p>    
+                    <p><div id="txtdescripcion"></div></p> 
+                    <p><div id="txttemperatura"></div></p> 
+                    <p><div id="txthumidity"></div></p> 
+                    <p><div id="txtspeed"></div></p> 
+                    <p><div id="txtfactor"></div></p> 
+                     
                 </div>
                 
             </div>
@@ -162,5 +160,6 @@
     </div>
 </footer>
 <script src="js/imagehandling.js"></script>
+<script src="js/weatherapi.js"></script>
 </body>
 </html>
