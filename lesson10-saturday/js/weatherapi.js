@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=58f3ede8a932ca945faf8e7bf4d71898';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=58f3ede8a932ca945faf8e7bf4d71898&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -17,9 +17,9 @@ fetch(apiURL)
     }
     document.getElementById('txtdescripcion').innerHTML = desc; 
     document.getElementById('txttemperatura').innerHTML = t;
-    document.getElementById('txthumidity').textContent = humidity;
+    document.getElementById('txthumidity').textContent = humidity +"%";
     document.getElementById('txtspeed').textContent = s;
-    document.getElementById('txtfactor').textContent = f;
+    document.getElementById('txtfactor').textContent = f.toFixed(2);
 
     //const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
       // note how we reference the weather array
@@ -28,7 +28,7 @@ fetch(apiURL)
     //document.getElementById('icon').setAttribute('alt', desc);
   });
 
-  const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=58f3ede8a932ca945faf8e7bf4d71898';
+  const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=58f3ede8a932ca945faf8e7bf4d71898&units=imperial';
   fetch(apiURL2)
   .then((response) => response.json())
   .then((forecastObject) => {
