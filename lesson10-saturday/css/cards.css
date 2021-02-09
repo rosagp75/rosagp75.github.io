@@ -8,20 +8,15 @@ h2 {
     font-size: 1.5rem;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items:center;
-    text-align: center;
-    grid-row-gap:20px;
-    margin:20px;
 
-}
 
 main div section  {
+    display:grid;
+    grid-template-columns: 1fr;
     background-color: #084887;
     padding:20px;
     width: 250px;
+    margin:20px;
 }
 
 img {
@@ -37,36 +32,5 @@ p {
     padding:10px;
 }
 
-@media only screen and (min-width: 35em) {
-   
 
 
-.cards {
-  display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-div.cards:nth-child(odd) img {
-	grid-column: 2;
-}
-
-div.cards:nth-child(odd) h2, h3, p{
-          grid-column: 1;
-          grid-row: 1;
-      }
-      
-     
-    
-}
-
-@media only screen and (min-width: 64rem) {
-
-    .cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap:10px;
-        justify-items:center;
-        text-align: center;
-        grid-row-gap:20px;
-    }
-}

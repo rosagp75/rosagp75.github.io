@@ -3,6 +3,18 @@
     .container{
         grid-template-columns: 1fr 1fr;
     } 
-      
     
+    div.cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items:center;
+        text-align: center;
+        grid-row-gap:20px;
+        width:400px;
+    }
+    
+   
+    
+    
+        
 }/*end medium*/
