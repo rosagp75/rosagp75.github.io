@@ -16,9 +16,9 @@ nav button {
 
 
 nav {
+    align-content: flex-start;
     background-color: #f58a07;
     font-family: Verdana, sans-serif;
-    
 }
 
 nav ul{

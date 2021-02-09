@@ -44,7 +44,11 @@ body {
     font-size: .9rem;
   }
   
-  
+  nav{
+    font-family:"Merriweather Sans";
+    justify-content: center;
+    margin:0 auto;
+  }
   /* Larger viewports */
   @media only screen and (min-width: 32.5em) {
     header img {
@@ -60,6 +64,8 @@ body {
       font-size: larger;
       margin-left: 17px;
     }
+
+   
   }
   
   h2.caja{
@@ -84,11 +90,7 @@ body {
     font-family:"Merriweather Sans";
     color:  #f9ab55;
   }
-  nav{
-    font-family:"Merriweather Sans";
-    justify-content: center;
-    margin:0 auto;
-  }
+  
   /*fin pagina Preston*/
   
   /*imagen y superposicion*/
@@ -112,6 +114,11 @@ body {
   /* fin imagen y superposicion*/
   
   /* Grid */
+  .grid-sumary { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+    
+  }
   .grid { 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
