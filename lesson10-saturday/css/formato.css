@@ -30,6 +30,7 @@ body {
     font-family:"Merriweather Sans";
     color: #f9ab55; 
   }
+  a { color: #f8f5f5; }
   
   .headings h1 {
     font-size: 1.6rem;
