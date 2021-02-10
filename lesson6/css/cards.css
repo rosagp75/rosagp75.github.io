@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans");
+@import url("https://fonts.googleapis.com/css?family=Electrolize");
+
+h2 {
+    text-align: center;
+    font-family:"Merriweather Sans";
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+
+
+main div section  {
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: #084887;
+    padding:20px;
+    width: 250px;
+    margin:20px;
+}
+
+img {
+    width: 100%;
+  
+}
+h3 {
+    font-family:"Merriweather Sans";
+    font-size: 0.8rem;
+}
+p {
+    font-family:"Merriweather Sans";
+    padding:10px;
+}
+
+
+
