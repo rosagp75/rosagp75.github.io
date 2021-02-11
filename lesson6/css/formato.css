@@ -95,7 +95,7 @@ body {
   /*fin pagina Preston*/
   
   /*imagen y superposicion*/
-  main {max-width:800px;margin:0 auto;}
+  main {max-width:950px;margin: auto;}
   h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
   
   .herodiv {margin: 10px auto;position: relative;}
@@ -190,10 +190,7 @@ body {
      height:auto;
      position:relative;
    }
-   .imagenprincipal{
-    width: 50%;
-   
-  }
+
    
    .gridfooter { 
       display: grid;

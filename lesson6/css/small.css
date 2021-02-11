@@ -51,7 +51,12 @@ nav ul.hide{display:none;}
 .container{
     grid-template-columns: 1fr;
     }
-
+    main {max-width:950px;margin: auto; align-content: center;}
+    figure.imagenprincipal{
+        display:flex;
+        justify-content: center;
+    }
+   
 /*----------- FORM --------------*/
 form fieldset{
     margin: 2rem 0;
@@ -136,3 +141,16 @@ textarea {
     grid-row-gap:20px;
 }
 /*fin cards*/
+/*Para summary in small view*/
+
+.weatherSummary {
+    position: relative;
+    left: 70px;
+    background: radial-gradient(#eee, #4567aa);   
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    width: 70%;
+    align-content: center;
+}
+/*fin summary*/
