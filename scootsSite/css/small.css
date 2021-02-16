@@ -174,6 +174,16 @@ main {max-width:950px;
     border-radius: 100px;
     padding: 0.25rem;
    }
-
  /* fin Grid-forecast */
 
+/* Tarjetas-inicio*/
+main div section  {
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: #084887;
+    padding:20px;
+    width: 250px;
+    margin:20px;
+}
+
+/* Tarjetas-fin*/
