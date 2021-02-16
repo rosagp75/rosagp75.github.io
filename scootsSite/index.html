@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Scoots Site">
+<meta name="author" content="Rosa Garces">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Scoots Site</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<!--fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arsenal&family=KoHo:wght@300&display=swap" rel="stylesheet">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+<script type="text/javascript" src="js/scripts.js"></script>    
+</head>
+
+<body>
+<!-- HEADER HERE -->
+    <header>
+	    <picture>
+		    <img src="images/logoscoots.jpg" alt="Scoots Logo">
+	    </picture>
+	    <section class="headings">
+		    <h1>Scoots</h1>
+		    <div class="slogan">Disconect from the routine</div>
+	    </section>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals
+            </a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="tours.html">Tours</a></li> 
+            <li><a href="contact.html">Contact</a></li>   
+            
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main class="clearfix">
+        <div class="herodiv">
+            <figure class="imagenprincipal">
+                    <img src="images/cozumel.jpg" alt="Island Cozumel" sizes="70vw"
+                    srcset="images/cozumel500.jpg 500w,
+                    images/cozumel800.jpg 800w,
+                    images/cozumel.jpg 1100w">
+
+            </figure>
+            <section class="weatherSummary">
+             <h2>Current Weather</h2>
+             <hr>
+             <div class="grid-sumary">
+                <div class="grid-col1">
+                    <p>Currenty:</p>
+                    <p>Temp.:</p>
+                    <p>Humidity:</p>
+                </div>
+                <div class="grid-col2">
+                    <p><div id="txtdescripcion"></div></p> 
+                    <p><div id="txttemperatura"></div></p> 
+                    <p><div id="txthumidity"></div></p> 
+                </div> 
+            </div>
+            </section>
+        </div>
+        <div class=forecast>
+            <h2 class="tituloPagina">5 day Forecast</h2>
+            <div class="grid-forecast">
+                <div class="grid-col">
+                    <span class="col-head" id="dia1"></span>
+                    <span class="marco" id="imagesrc0"></span> &nbsp; <img src="" alt="" id="icon0">
+                    <p><span class="data" id="temp0"></span>&deg; F</p>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Thu</span>
+                    <span class="marco" id="imagesrc1"></span> &nbsp; <img src="" alt="" id="icon1">
+                    <p><span class="data" id="temp1"></span>&deg;F</p>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Fri</span>
+                    <span class="marco" id="imagesrc2"></span> &nbsp; <img src="" alt="" id="icon2">
+                    <p><span  class="data" id="temp2"></span>&deg; F</p>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Sat</span>
+                    <span class="marco" id="imagesrc3"></span> &nbsp; <img src="" alt="" id="icon3">
+                    <p><span class="data" id="temp3"></span>&deg; F</p>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Sun</span>
+                    <span class="marco" id="imagesrc4"></span> &nbsp; <img src="" alt="" id="icon4">
+                    <p><span class="data" id="temp4"></span>&deg; F</p>
+                </div>
+        
+            </div>
+        </div>
+        <div class="cards">
+            
+
+
+
+        </div>
+   </main> 
+<!-- FOOTER HERE -->   
+    <footer>
+        
+    </footer>
+    <script src="js/weatherapi.js"></script>
+</body>
+</html>

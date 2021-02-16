@@ -1,0 +1,179 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*fuentes para h1, h2 , p*/
+h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
+h2 {text-align: center;font-size:1.5rem; text-shadow:3px 3px 5px #777;font-family: 'Viga', sans-serif;}
+p{font-family: 'Roboto', sans-serif;font-size:1rem;}
+/*fin para h1, h2 , p*/
+
+/* inicio header section*/
+header {
+    background-color: #3da35d;
+    padding: 10px 0;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+ 
+
+  header img {
+    width: 80px;
+    height: auto;
+   
+  }
+  
+  .headings {
+    display: flex;
+    flex-direction: column;
+    font-family:'Viga', sans-serif;
+    font-size:20px;
+    color: #fff; 
+  }
+
+  .slogan{
+    font-family: 'Viga', sans-serif;
+    font-size: 14px;
+    }
+
+/* fin header section*/
+
+/* barra de navegacion*/
+
+nav button {
+    margin: .2rem 2%;
+    background-color:transparent;
+    border:none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav {
+    align-content: flex-start;
+    background-color: #134611;
+    font-family: 'Viga', sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+nav ul li a{
+    display:block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
+
+}
+
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color : #fff;}
+nav ul li a:hover{background-color: rgba(0,0,0,0.4);} 
+
+nav ul.hide{display:none;}
+
+/* fin  barra de navegacion*/
+
+/*section main*/
+main {max-width:950px;
+    margin: auto;
+    background-color:#96e072;}
+
+
+/*fin main */
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/*fin caja superposición current wather informatión */
+
+.herodiv {margin: 10px auto;
+    position: relative;}
+
+  h1, h2, p {margin: 0;}
+  
+  .weatherSummary {
+      position: absolute;
+      top: 25px;
+      left: 60px;
+      background: radial-gradient(#eee, #3e8914);
+      border: 1px solid #000;
+      padding: 1.5rem;
+      box-shadow: 0 0 30px #111;
+      opacity: .8;
+  }
+  .imagenprincipal{
+      display:flex;
+      justify-content: center;
+  }
+/*fin caja superposición */
+
+ /* Grid-sumary */
+  .grid-sumary { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+    .grid-col1 {
+    font-family: 'Roboto', sans-serif;
+    }
+  .grid-col2 {
+    font-family: 'Roboto', sans-serif;
+    }
+  /* Fin Grid sumary */
+
+ /* Grid-forecast */
+
+ .grid-forecast { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+  border-right: 1px solid #333;
+}
+
+  hr{
+    color:ghostwhite;
+  }
+  .col-head {
+      display: block;
+      padding: 5px;
+      border-bottom: 3px solid #333;
+      text-align: center;
+      font-weight: 700;
+      font-size: 1rem;
+      background-color:  #134611;
+      color: white;
+  }
+  .data {
+      display: block;
+      padding: 0 5px 5px;
+      font-size: 0.8rem;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+  }
+  .grid-col:hover {
+      opacity: 0.75;
+      background-color:#333;
+      color: white;
+  }
+  .grid-col {
+      border-bottom: 1px solid #333;
+      border-left: 1px solid #333;
+    text-align: center;
+  }
+  img.marco{
+    border-radius: 100px;
+    padding: 0.25rem;
+   }
+
+ /* fin Grid-forecast */
+
