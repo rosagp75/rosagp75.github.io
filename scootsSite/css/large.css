@@ -24,3 +24,22 @@
         padding: .6rem 1rem;
     }
 } /*end large */
+
+/* Tarjetas-inicio*/
+.cards-rentals  {
+    display:grid;
+    grid-template-columns:  1fr 1fr;
+    background-color: #3da35d;
+    padding:20px;
+    width: 860px;
+    margin:40px;
+}
+.texto1{
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.imagen1{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+/* Tarjetas-fin*/

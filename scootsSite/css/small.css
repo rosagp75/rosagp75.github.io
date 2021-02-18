@@ -124,7 +124,7 @@ main {max-width:950px;
     
   }
 
-    .grid-col1 {
+  .grid-col1 {
     font-family: 'Roboto', sans-serif;
     }
   .grid-col2 {
@@ -177,13 +177,19 @@ main {max-width:950px;
  /* fin Grid-forecast */
 
 /* Tarjetas-inicio*/
-main div section  {
+.cards-rentals {
     display:grid;
     grid-template-columns: 1fr;
-    background-color: #084887;
+    background-color: #3da35d;
     padding:20px;
-    width: 250px;
+    width: 70px;
     margin:20px;
 }
-
+.imagen1{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 80px;
+}
 /* Tarjetas-fin*/

@@ -21,7 +21,13 @@
           font-size: larger;
           margin-left: 17px;
         }
-    
+        .cards-rentals  {
+          width: 200px;
+          margin:40px;
+      }
+      .imagen1{
+        width:"50%";
+      }
     
         
 }/*end medium*/
