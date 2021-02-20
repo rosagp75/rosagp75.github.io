@@ -3,50 +3,50 @@
     {
       "type": "Honda Metro Scooter",
       "max": "1",
-      "ReservationHalfDay": "$20",
-      "ReservationFullDay": "$30",
-      "WalkHalfDay": "$20",
-      "WalkFullDay": "$30"
+      "ReservationHalfDay": "20",
+      "ReservationFullDay": "30",
+      "WalkHalfDay": "20",
+      "WalkFullDay": "30"
     },
     {
      "type": "Honda Dio Scooter",
       "max": "2",
-      "Reservation-Half-Day": "$30",
-      "Reservation-Full-Day": "$40",
-      "Walk-Half-Day": "$35",
-      "Walk-Full-Day": "$45"
+      "ReservationHalfDay": "30",
+      "ReservationFullDay": "40",
+      "WalkHalfDay": "35",
+      "WalkFullDay": "45"
     },
     {
      "type": "Honda PCX150 Scooter",
       "max": "2",
-      "Reservation-Half-Day": "$40",
-      "Reservation-Full-Day": "$50",
-      "Walk-Half-Day": "$45",
-      "Walk-Full-Day": "$55"
+      "ReservationHalfDay": "40",
+      "ReservationFullDay": "50",
+      "WalkHalfDay": "45",
+      "WalkFullDay": "55"
     },
     {
      "type": "Honda Pioneer ATV",
       "max": "4",
-      "Reservation-Half-Day": "$50",
-      "Reservation-Full-Day": "$70",
-      "Walk-Half-Day": "$60",
-      "Walk-Full-Day": "$80"
+      "ReservationHalfDay": "50",
+      "ReservationFullDay": "70",
+      "WalkHalfDay": "60",
+      "WalkFullDay": "80"
     },
     {
      "type": "Jeep Wrangler-4 door with a/c",
       "max": "5",
-      "Reservation-Half-Day": "$70",
-      "Reservation-Full-Day": "$100",
-      "Walk-Half-Day": "$85",
-      "Walk-Full-Day": "$125"
+      "ReservationHalfDay": "70",
+      "ReservationFullDay": "100",
+      "WalkHalfDay": "85",
+      "WalkFullDay": "125"
     },
     {
      "type": "Jeep Wrangler-2 door",
       "max": "4",
-      "Reservation-Half-Day": "$60",
-      "Reservation-Full-Day": "$85",
-      "Walk-Half-Day": "$70",
-      "Walk-Full-Day": "$90"
+      "ReservationHalfDay": "60",
+      "ReservationFullDay": "85",
+      "WalkHalfDay": "70",
+      "WalkFullDay": "90"
     }
   ]
 }
