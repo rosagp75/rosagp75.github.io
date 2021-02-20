@@ -3,10 +3,10 @@
     {
       "type": "Honda Metro Scooter",
       "max": "1",
-      "Reservation-Half-Day": "$20",
-      "Reservation-Full-Day": "$30",
-      "Walk-Half-Day": "$20",
-      "Walk-Full-Day": "$30"
+      "ReservationHalfDay": "$20",
+      "ReservationFullDay": "$30",
+      "WalkHalfDay": "$20",
+      "WalkFullDay": "$30"
     },
     {
      "type": "Honda Dio Scooter",
