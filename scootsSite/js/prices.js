@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/rosagp75/rosagp75.github.io/blob/master/scootsSite/data/pricesrentals.json';
+const requestURL = 'https://rosagp75.github.io/scootsSite/data/pricesrentals.json';
 fetch(requestURL)
       .then(function (response) {
         return response.json();
