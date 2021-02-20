@@ -225,8 +225,23 @@ form label.top input:required:valid {
 .gridfooter { 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
-  background-color: #3e8914;
+  background-color: #3da35d;
   padding:20px;
   }
-
   /*fin footer*/
+  /*inicio vehiculos renta*/
+.eventbox{
+  display:grid;
+  font-size: 1.0em;
+  grid-template-columns: 1fr;
+  border: 1px solid #3da35d;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #111;
+  padding:20px;
+  padding-bottom: 40px;
+  margin: 20px;
+  font-family: 'Arima Madurai', cursive;
+  background-color:#3da35d;
+  color:#eee;
+}
+/*end vehiculos renta*/

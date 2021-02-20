@@ -48,5 +48,25 @@
         padding:10px;
       }
       
+      .imgrental{
         
+      }
+      .eventbox{
+        display:grid;
+        font-size: 1.0em;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid #3da35d;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #111;
+        padding:20px;
+        padding-bottom: 40px;
+        margin: 20px;
+        font-family: 'Arima Madurai', cursive;
+        background-color:#3da35d;
+        color:#eee;
+      }
+      
+      .imgrental{
+        
+      }
 }/*end medium*/
