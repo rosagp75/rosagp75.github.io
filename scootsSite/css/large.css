@@ -23,23 +23,29 @@
         border-right: 1px solid rgba(0,0,0,0.3);
         padding: .6rem 1rem;
     }
+
+    div.cards-rentals {
+        display:grid;
+        grid-template-columns:  1fr 1fr;
+        background-color: #3da35d;
+        padding:20px;
+        width: 860px;
+        margin:40px;
+        border:4px solid;
+    }
+    div.cards-rentals.imagen1{
+        grid-column-start:2;
+        justify-content: center;
+        width:100%;
+        padding:20px;
+      }
+      .texto1{
+        grid-column-start:1;
+      }
+      .titlecard{
+        grid-column-start: 1;
+        grid-column-end:3;
+        padding:10px;
+      }
 } /*end large */
 
-/* Tarjetas-inicio*/
-.cards-rentals  {
-    display:grid;
-    grid-template-columns:  1fr 1fr;
-    background-color: #3da35d;
-    padding:20px;
-    width: 860px;
-    margin:40px;
-}
-.texto1{
-  grid-column-start: 1;
-  grid-column-end: 1;
-}
-.imagen1{
-  grid-column-start: 2;
-  grid-column-end: 2;
-}
-/* Tarjetas-fin*/

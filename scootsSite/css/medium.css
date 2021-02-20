@@ -21,13 +21,32 @@
           font-size: larger;
           margin-left: 17px;
         }
-        .cards-rentals  {
-          width: 200px;
-          margin:40px;
+        
+        div.cards-rentals {
+          display:grid;
+          grid-template-columns:  1fr 1fr;
+          background-color: #3da35d;
+          padding:20px;
+          width: 550px;
+          margin:20px;
+          justify-content: center;
+          border:4px solid;
       }
-      .imagen1{
-        width:"50%";
+      div.cards-rentals.imagen1{
+        grid-column-start:2;
+        justify-content: center;
+        width:100%;
+        padding:20px;
+        
       }
-    
+      .texto1{
+        grid-column-start:1;
+      }
+      .titlecard{
+        grid-column-start: 1;
+        grid-column-end:3;
+        padding:10px;
+      }
+      
         
 }/*end medium*/

@@ -1,3 +1,7 @@
+const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numeric'};
+document.getElementById('currentday').textContent = new Date().toLocaleDateString('en-US', options);
+document.getElementById("currentyear").textContent = new Date().getFullYear();
+
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=3530103&appid=58f3ede8a932ca945faf8e7bf4d71898&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())
@@ -33,6 +37,7 @@ fetch(apiURL)
         }
         if (day==1){
           document.getElementById('temp1').innerHTML = forecast[day].main.temp;
+          document.getElementById("dia2").innerHTML = inicialesdia(myday);
           const imagesrc1 = 'https://openweathermap.org/img/w/' + forecast[day].weather[0].icon + '.png';
           const desc1 = forecast[day].weather[0].description;  // note how we reference the weather array
           document.getElementById('icon1').setAttribute('src', imagesrc1);  // focus on the setAttribute() method
@@ -40,13 +45,15 @@ fetch(apiURL)
         }
         if (day==2){
           document.getElementById('temp2').innerHTML = forecast[day].main.temp;
+          document.getElementById("dia3").innerHTML = inicialesdia(myday);
           const imagesrc2 = 'https://openweathermap.org/img/w/' + forecast[day].weather[0].icon + '.png';
           const desc2 = forecast[day].weather[0].description;  // note how we reference the weather array
           document.getElementById('icon2').setAttribute('src', imagesrc2);  // focus on the setAttribute() method
           document.getElementById('icon2').setAttribute('alt', desc2); 
         }
         if (day==3){
-          document.getElementById('temp3').innerHTML = forecast[day].main.temp; 
+          document.getElementById('temp3').innerHTML = forecast[day].main.temp;
+          document.getElementById("dia4").innerHTML = inicialesdia(myday);
           const imagesrc3 = 'https://openweathermap.org/img/w/' + forecast[day].weather[0].icon + '.png';
           const desc3 = forecast[day].weather[0].description;  // note how we reference the weather array
           document.getElementById('icon3').setAttribute('src', imagesrc3);  // focus on the setAttribute() method
@@ -54,6 +61,7 @@ fetch(apiURL)
         }
         if (day==4){
           document.getElementById('temp4').innerHTML = forecast[day].main.temp;
+          document.getElementById("dia5").innerHTML = inicialesdia(myday);
           const imagesrc4 = 'https://openweathermap.org/img/w/' + forecast[day].weather[0].icon + '.png';
           const desc4 = forecast[day].weather[0].description;  // note how we reference the weather array
           document.getElementById('icon4').setAttribute('src', imagesrc4);  // focus on the setAttribute() method
@@ -64,12 +72,12 @@ fetch(apiURL)
 });
 
 function inicialesdia(pardia) {
-  if (pardia=="0"){return "Sun"}
-  if (pardia=="1"){return "Mon"}
-  if (pardia=="2"){return "Tue"}
-  if (pardia=="3"){return "Wed"}
-  if (pardia=="4"){return "Thu"}
-  if (pardia=="5"){return "Fri"}
-  if (pardia=="6"){return "Sat"}
-  if (pardia=="7"){return "Sun"}
+  if (pardia=="0"){return "Sun";}
+  if (pardia=="1"){return "Mon";}
+  if (pardia=="2"){return "Tue";}
+  if (pardia=="3"){return "Wed";}
+  if (pardia=="4"){return "Thu";}
+  if (pardia=="5"){return "Fri";}
+  if (pardia=="6"){return "Sat";}
+  if (pardia=="7"){return "Sun";}
 };

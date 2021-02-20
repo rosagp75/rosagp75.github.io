@@ -17,7 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=KoHo:wght@300&display=swap" rel="stylesheet">
@@ -31,18 +31,18 @@
 <!-- enhance-desktop -->
 <link href="css/large.css" rel="stylesheet">
 
-<script type="text/javascript" src="js/scripts.js"></script>    
+<script src="js/scripts.js"></script>    
 </head>
 
 <body>
 <!-- HEADER HERE -->
     <header>
 	    <picture>
-		    <img src="images/logoscoots.jpg" alt="Scoots Logo">
+		    <img src="images/logo3.png" alt="Scoots Logo">
 	    </picture>
 	    <section class="headings">
 		    <h1>Scoots</h1>
-		    <div class="slogan">Disconect from the routine</div>
+		    <div class="slogan"><h2>Disconect from the routine</h2></div>
 	    </section>
     </header>
     
@@ -82,9 +82,9 @@
                     <p>Humidity:</p>
                 </div>
                 <div class="grid-col2">
-                    <p><div id="txtdescripcion"></div></p> 
-                    <p><div id="txttemperatura"></div></p> 
-                    <p><div id="txthumidity"></div></p> 
+                    <div id="txtdescripcion"></div>
+                    <div id="txttemperatura"></div>
+                    <div id="txthumidity"></div>
                 </div> 
             </div>
             </section>
@@ -93,53 +93,74 @@
             <h2 class="tituloPagina">5 day Forecast</h2>
             <div class="grid-forecast">
                 <div class="grid-col">
-                    <span class="col-head" id="dia1"></span>
-                    <span class="marco" id="imagesrc0"></span> &nbsp; <img src="" alt="" id="icon0">
-                    <p><span class="data" id="temp0"></span>&deg; F</p>
+                    <p><span class="col-head" id="dia1"></span></p>
+                    <span class="marco" id="imagesrc0"></span> &nbsp; 
+                    <img src="https://openweathermap.org/img/w/" alt="icon weather" id="icon0">
+                    <span class="data" id="temp0"></span>&deg; F</p>
                 </div>
                 <div class="grid-col">
-                    <span class="col-head">Thu</span>
-                    <span class="marco" id="imagesrc1"></span> &nbsp; <img src="" alt="" id="icon1">
-                    <p><span class="data" id="temp1"></span>&deg;F</p>
+                    <p><span class="col-head" id="dia2"></span></p>
+                    <span class="marco" id="imagesrc1"> &nbsp;</span> <img src="https://openweathermap.org/img/w/" alt="icon weather" id="icon1">
+                    <p><span class="data" id="temp1"></span>&deg; F</p>
                 </div>
                 <div class="grid-col">
-                    <span class="col-head">Fri</span>
-                    <span class="marco" id="imagesrc2"></span> &nbsp; <img src="" alt="" id="icon2">
+                    <p><span class="col-head" id="dia3"></span></p>
+                    <span class="marco" id="imagesrc2"></span> &nbsp; <img src="https://openweathermap.org/img/w/" alt="icon weather" id="icon2">
                     <p><span  class="data" id="temp2"></span>&deg; F</p>
                 </div>
                 <div class="grid-col">
-                    <span class="col-head">Sat</span>
-                    <span class="marco" id="imagesrc3"></span> &nbsp; <img src="" alt="" id="icon3">
+                    <p><span class="col-head" id="dia4"></span></p>
+                    <span class="marco" id="imagesrc3"></span> &nbsp; <img src="https://openweathermap.org/img/w/" alt="icon weather" id="icon3">
                     <p><span class="data" id="temp3"></span>&deg; F</p>
                 </div>
                 <div class="grid-col">
-                    <span class="col-head">Sun</span>
-                    <span class="marco" id="imagesrc4"></span> &nbsp; <img src="" alt="" id="icon4">
+                    <p><span class="col-head" id="dia5"></span></p>
+                    <span class="marco" id="imagesrc4"></span> &nbsp; <img src="https://openweathermap.org/img/w/" alt="icon weather" id="icon4">
                     <p><span class="data" id="temp4"></span>&deg; F</p>
                 </div>
         
             </div>
         </div>
         <div class="cards-rentals">
-            <h2>Sumary Retals</h2>
+            <h2 class="titlecard">Sumary Retals</h2>
+            
             <div class="texto1">
-                <p>Honda Motor Scooters</p>
-                <p>ATV Side-by-Side</p>
-                <p>Honda Pioneer 1000</p>
+                <p>Enjoy our vehicles and explore in a fun way.</p>
+                <br>
+                <p>This are your options:</p>
+                <br>
+                <p>- Honda Motor Scooters</p>
+                <p>- ATV Side-by-Side</p>
+                <p>- Honda Pioneer 1000</p>
+                <br>
+                <p>More about type of rentals<a href="rentals.html">here</a></p>
+                <br>
+                <br>
+                <form method="get" action="Reservations.html">
+                    <input class="submitBtn" type="submit" value="Make your Reservation">
+                </form>
+            </div>
+            <div class=imagen1>
+                <img src="images/scooter.jpg" alt="scoots honda">
             </div>
             
-        </div>
-        <div class="cards-contact">
-                <h2>Contact Information</h2>
-
-        </div>
-       
-          
+        </div>         
    </main> 
 <!-- FOOTER HERE -->   
-    <footer>
-        
-    </footer>
-    <script src="js/weatherapi.js"></script>
+<footer>
+    <div class="gridfooter">
+        <div class="grid-image">
+            <a href="contact.html"><img src="images/contactus.jpg" alt="contact"></a>
+        </div>
+        <div class="grid-colf">
+                <p> &copy; <span id="currentyear"> </span>  | Rosa Garces | <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a><br><span id="currentday"></span></p>
+                <a href="https://openweathermap.org" target="_blank">OpenWeatherMap</a></p>
+                <div><a href="http://instagram.com/username"><img style="margin:5px" src="images/instagram.png" width="30" height="30" alt="Instagram"></a><a href="http://facebook.com/username"><img style="margin:5px" src="images/facebook.png" width="30" height="30" alt="Facebook"></a><a href="http://youtube.com/user/username" ><img style="margin:5px" src="images/youtube.png" width="30" height="30" alt="YouTube"></a></div>
+
+        </div>
+    </div>
+</footer>
+<script src="js/imagehandling.js"></script>
+<script src="js/weatherapi.js"></script>
 </body>
 </html>
