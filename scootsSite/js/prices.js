@@ -1,5 +1,5 @@
 const requestURL = 'https://rosapg75.github.io./scootsSite/data/pricesrentals.json';
-fetch(requestURL, {mode: 'no-cors'})
+fetch(requestURL)
       .then(function (response) {
         return response.json();
       })
