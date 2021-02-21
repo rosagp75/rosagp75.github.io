@@ -245,6 +245,8 @@ form label.top input:required:valid {
   color:#eee;
 }
 /*end vehiculos renta*/
+
+/*formato tabla*/
 .tablebox{
   display:grid;
   font-size: 1.0em;
@@ -257,5 +259,23 @@ form label.top input:required:valid {
   margin: 20px;
   font-family: 'Arima Madurai', cursive;
   background-color:#3da35d;
-  color:#eee;
+  color:#111;
 }
+.formatotabla{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #134611;
+}
+
+
+tbody tr:nth-child(odd) {
+  background-color: #96e072;
+  text-align:center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e8fccf;
+  text-align:center;
+}
+/*fin formato tabla*/

@@ -25,7 +25,7 @@ fetch(requestURL)
 
         if (i==2){
             document.getElementById('max2').innerHTML = renta[i].max; 
-            document.getElementById('pre2-1').innerHTML = renta[i].ReservationHalfDay; 
+            document.getElementById('pre2-1').innerHTML = "$" + renta[i].ReservationHalfDay; 
             document.getElementById('pre2-2').innerHTML = renta[i].ReservationFullDay; 
             document.getElementById('pre2-3').innerHTML = renta[i].WalkHalfDay; 
             document.getElementById('pre2-4').innerHTML = renta[i].WalkFullDay;
