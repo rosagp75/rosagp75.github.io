@@ -61,6 +61,59 @@
         background-color:#3da35d;
         color:#eee;
       }
-      
+
+      .gale img { 
+        width: 140px; 
+        height: auto; 
+        margin: .5rem;
+        filter: blur(0em);
+        transition: filter 0.5s;
+        background-color: #fff;
+        border:1px solid #333;
+      }
+      th {
+        font-size: 1.0em;
+      }
+      .formbox{
+        display:flex;
+        width:860px;
+        font-size: 1.5em;
+        border: 1px solid #3da35d;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #111;
+        padding:20px;
+        padding-bottom: 40px;
+        margin: 20px;
+        font-family: 'Arima Madurai', cursive;
+        background-color:#3da35d;
+        color:#eee;
+      }
+
+      .toursbox{
+        display:grid;
+        font-size: 1.0em;
+        grid-template-columns: 1fr;
+        border: 1px solid #3da35d;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #111;
+        padding:20px;
+        padding-bottom: 40px;
+        margin: 20px;
+        font-family: 'Arima Madurai', cursive;
+        background-color:#3da35d;
+        color:#eee;
+
+      }
+      .weatherSummary {
+        position: absolute;
+        top: 25px;
+        left: 60px;
+        background: radial-gradient(#eee, #3da35d);
+        border: 1px solid #000;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+        width: 40%;
+    }
 } /*end large */
 

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Scoots Site">
+<meta name="author" content="Rosa Garces">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Scoots Site</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<!--fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arsenal&family=KoHo:wght@300&display=swap" rel="stylesheet">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+<script src="js/scripts.js"></script>    
+</head>
+
+<body>
+<!-- HEADER HERE -->
+    <header>
+	    <picture>
+		    <img src="images/logo3.png" alt="Scoots Logo">
+	    </picture>
+	    <section class="headings">
+		    <h1>Scoots</h1>
+		    <div class="slogan"><h2>Disconect from the routine</h2></div>
+	    </section>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="rentals.html">Rentals
+            </a></li>
+            <li ><a href="reservations.html">Reservation</a></li>
+            <li class="active"><a href="tours.html">Tours</a></li> 
+            <li><a href="contactus.html">Contact</a></li>   
+            
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main class="clearfix">
+
+         <section class="toursbox">
+            <div class="textrental">
+                <h2>Tourist Attractions in Cozumel</h2>
+                <p>
+                    One of Mexico's largest islands, Cozumel is 20 kilometers off the northeast coast 
+                    of the Yucatán Peninsula near the popular resorts of the Mayan Riviera. Thanks to its 
+                    dense green vegetation, incredible diving, and beaches with fine coral sand and crystal-clear 
+                    blue-green sea, the island has become one of the country's hottest vacation spots, as popular 
+                    among sunbathers as it is for divers.
+                </p>
+            </div>
+           
+        </section>
+               
+        <section class="toursbox">
+            <div class="textrental">
+                <h2>A Diver's Delight: Palancar Reef</h2>
+                <br>
+                <p>
+                    Thanks to conservation efforts, marine life in the waters around Cozumel 
+                    has bounced back after decades of overfishing. Nowadays, the onus is on observing
+                    fish in their natural habitat rather than catching them. The island is now extremely 
+                    popular as a destination for snorkelers and scuba divers, who are spoilt for choice 
+                    when it comes to choosing which lovely reef to explore.
+                </p>
+                <br>
+            </div>
+            <div class="imgrental">
+                <img src="images/peces1100.jpg" alt="Palancar Reef" sizes="60vw"
+                srcset="images/peces500.jpg 500w,
+                images/peces.jpg 800w,
+                images/peces1100.jpg 1100w">
+            </div>
+            <br>
+            <div class="textrental">
+                <h2>Cozumel's Beaches</h2>
+                <br>
+                <p>
+                    While the island is not particularly well known for its beaches, 
+                    there are beautiful areas of magnificent powdery white sand, 
+                    a by-product of the numerous coral reefs surrounding the island. 
+                    Among the most popular and attractive of Cozumel's beaches are Playa 
+                    San Juan and Playa Santa Pilar in the northwest corner of the island, 
+                    and Playa San Francisco, Playa Santa Rosa, and Playa Palancar to the southwest.
+                </p>
+            </div>
+            <br>
+            <div class="imgrental">
+                <img src="images/playas1100.jpg" alt="rentals" sizes="60vw"
+                srcset="images/playas500.jpg 500w,
+                images/playas.jpg 800w,
+                images/playas1100.jpg 1100w">
+            </div>
+            <br>
+            <div class="textrental">
+                <h2>Cozumel's Mayan Heritage: San Gervasio</h2>
+                <br>
+                <p>
+                    More than 30 Mayan sites have been found on Cozumel, some of them in beautiful 
+                    locations such as dense jungle or perched above pristine beaches. By far the most 
+                    important is that of San Gervasio, built in AD 800 and located 16 kilometers from San
+                     Miguel de Cozumel. Highlights of a visit include seeing the Temple of Ix-chel, 
+                     for centuries the focal point of the island's religious life and a place of pilgrimage 
+                     from across the Mayan empire.
+                </p>
+            </div>
+            <br>
+            <div class="imgrental" >
+                <img src="images/gervacio1100.jpg" alt="rentals"sizes="60vw"
+                srcset="images/gervacio500.jpg 500w,
+                images/gervacio.jpg 800w,
+                images/gervacio1100.jpg 1100w">
+            </div>
+            <br>
+        </section>
+        
+    </main> 
+<!-- FOOTER HERE -->   
+<footer>
+    <div class="gridfooter">
+        <div class="grid-image">
+            <a href="contactus.html"><img src="images/contactus.jpg" alt="contact"></a>
+        </div>
+        <div class="grid-colf">
+                <p> &copy; <span id="currentyear"> </span>  | Rosa Garces | <a href="https://www.byui.edu/online" target="_blank"> BYU-Idaho Online Learning</a><br><span id="currentday"></span></p>
+                <a href="https://openweathermap.org" target="_blank">OpenWeatherMap</a></p>
+                <div><a href="http://instagram.com/username"><img style="margin:5px" src="images/instagram.png" width="30" height="30" alt="Instagram"></a><a href="http://facebook.com/username"><img style="margin:5px" src="images/facebook.png" width="30" height="30" alt="Facebook"></a><a href="http://youtube.com/user/username" ><img style="margin:5px" src="images/youtube.png" width="30" height="30" alt="YouTube"></a></div>
+
+        </div>
+    </div>
+</footer>
+<script src="js/imagehandling.js"></script>
+<script src="js/prices.js"></script>
+</body>
+</html>

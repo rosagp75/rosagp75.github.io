@@ -143,16 +143,7 @@ textarea {
 /*fin cards*/
 /*Para summary in small view*/
 
-.weatherSummary {
-    position: relative;
-    left: 70px;
-    background: radial-gradient(#eee, #4567aa);   
-    padding: 1.5rem;
-    box-shadow: 0 0 30px #111;
-    opacity: .8;
-    width: 70%;
-    align-content: center;
-}
+
 /*fin summary*/
 /*inicio caja eventos*/
 .eventbox{
